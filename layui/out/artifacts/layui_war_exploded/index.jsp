@@ -11,6 +11,7 @@
   <center>
     <h2><a href="pages/helloWorld.jsp">Hello World</a></h2>
       <h2><a href="pages/layout.jsp">layout</a></h2>
+      <h2><a href="pages/icon.jsp">icon</a></h2>
   </center>
   </body>
 </html>
