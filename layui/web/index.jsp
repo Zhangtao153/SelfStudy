@@ -13,6 +13,7 @@
       <h2><a href="pages/layout.jsp">layout</a></h2>
       <h2><a href="pages/icon.jsp">icon</a></h2>
     <h2><a href="pages/button.jsp">button</a></h2>
+    <h2><a href="pages/form.jsp">form</a></h2>
   </center>
   </body>
 </html>
