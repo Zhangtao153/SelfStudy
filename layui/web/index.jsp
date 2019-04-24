@@ -19,6 +19,7 @@
     <h2><a href="pages/progress.jsp">progress</a></h2>
     <h2><a href="pages/panel.jsp">panel</a></h2>
     <h2><a href="pages/table.jsp">table</a></h2>
+    <h2><a href="pages/badge.jsp">badge</a></h2>
   </center>
   </body>
 </html>
