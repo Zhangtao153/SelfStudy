@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Vue</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+<div id="myDiv">
+    <h1>site:{{site}}</h1>
+    <h1>url:{{url}}</h1>
+    <h1>{{details()}}</h1>
+</div>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:"#myDiv",
+        data:{
+            site:"百度",
+            url:"www.baidu.com",
+            alexa:"10000"
+        },
+        methods:{
+            details:function () {
+                return this.site+"- 百度一下，你就知道";
+            }
+        }
+    });
+</script>
+</body>
+</html>
