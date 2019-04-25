@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11eed088-73ef-44f0-bea1-0c3c4f4df334" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liu/demo01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runoob/demo01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../layui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layui/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runoob/demo02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runoob/demo01.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
               <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runoob/demo02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -42,6 +49,7 @@
       <list>
         <option value="$PROJECT_DIR$/liu/demo01.html" />
         <option value="$PROJECT_DIR$/runoob/demo01.html" />
+        <option value="$PROJECT_DIR$/runoob/demo02.html" />
       </list>
     </option>
   </component>
@@ -51,9 +59,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="665" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -84,7 +92,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556202028158" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556207145978" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -113,15 +121,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556199573266</updated>
-      <workItem from="1556199574424" duration="3037000" />
+      <workItem from="1556199574424" duration="7298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3037000" />
+    <option name="totallyTimeSpent" value="7298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="665" y="6" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -200,6 +208,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runoob/demo02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
         </state>
       </provider>
     </entry>

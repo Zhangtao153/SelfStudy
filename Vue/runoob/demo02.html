@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板语法</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <style>
+        .class1{
+            background: #444;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+<!--插值-->
+
+ <!--文本 数据绑定最常见的形式就是使用 {{...}}（双大括号）的文本插值-->
+<div id="myDiv">
+    <p>{{message}}</p>
+</div>
+
+<script>
+    new Vue({
+        el:"#myDiv",
+        data:{
+            message:"有多少人正在疗伤"
+        }
+    });
+</script>
+
+<!--Html:
+使用 v-html 指令用于输出 html 代码：-->
+<div id="myDiv1">
+    <div v-html="message"></div>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el:"#myDiv1",
+        data:{
+            message:"<h1>心中那自由的世界</h1>"
+        }
+    });
+</script>
+
+<!--HTML 属性中的值应使用 v-bind 指令-->
+<!--for 属性规定 label 绑定到哪个表单元素。-->
+<div id="myDiv2">
+    <label for="input1">改变颜色</label><input type="checkbox" v-model="use" id="input1"><br><br>
+    <div :class="{'class1':use}">
+        如此的清澈高远
+    </div>
+</div>
+<script>
+    new Vue({
+        el:"#myDiv2",
+        data:{
+            use:false
+        }
+    });
+</script>
+
+<!--Vue.js 都提供了完全的 JavaScript 表达式支持。-->
+<div id="MyDiv3">
+    <br><br>
+    {{5+5}}<br>
+    {{ok? "yes":"no"}}<br>
+    {{ message.split('').reverse().join('') }}<br><br>
+</div>
+<script>
+    new Vue({
+        el:"#MyDiv3",
+        data:{
+            ok:true,
+            message:'olleH'
+        }
+    });
+</script>
+
+<!--指令是带有 v- 前缀的特殊属性。
+
+指令用于在表达式的值改变时，将某些行为应用到 DOM 上-->
+
+<div id="myDiv4">
+    选我啊：<input type="checkbox" v-modal="show">
+    <div v-if="show">
+        <h2>纵有红颜</h2>
+        <h2>百生千劫</h2>
+    </div>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el:"#myDiv4",
+        data:{
+            show:false
+        }
+    });
+</script>
+</body>
+</html>
