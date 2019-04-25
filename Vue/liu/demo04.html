@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1>Vue提供了许多常用的实例属性和方法，都以$开始访问</h1>
+		<h1>Vue实例本身代理了data中所有的属性app.name</h1>
+		<div id="app">
+			<input type="text" placeholder="input your name" v-model="name" />
+			<span>{{name}}</span>
+		</div>
+		<script type="text/javascript" src="js/vue.js" ></script>
+		<script>
+			var app=new Vue({
+				el:document.getElementById("app"),
+				data:{
+					name:"aa"
+				}
+			});
+			
+			alert(app.name);
+		</script>
+	</body>
+</html>
