@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue 事件处理器</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+<div id="div1" style="padding: 20px">
+    <button @click="say('点我干嘛')">点我啊</button>
+    <button @click="say('你再点试试')">别点我</button>
+</div>
+
+<script type="text/javascript">
+    new Vue({
+        el:"#div1",
+        methods:{
+            say:function (message) {
+                alert(message);
+            }
+        }
+    });
+</script>
+</body>
+</html>
