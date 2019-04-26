@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue 表单</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+<div id="div1" style="padding: 20px">
+    <p>input 元素:</p>
+    <input type="text" v-model="message" placeholder="请输入">
+    <p>你输入的是：{{message}}</p>
+    <hr>
+    <p>textarea 元素:</p>
+    <textarea  v-model="message1" placeholder="请输入"></textarea>
+    <p>你输入的是：{{message1}}</p>
+</div>
+
+<script type="text/javascript">
+    new Vue({
+        el:"#div1",
+        data:{
+            message:"",
+            message1:""
+        }
+    });
+</script>
+
+<hr>
+<br>
+<div id="div2">
+    <input type="checkbox" v-model="checked" id="box"><label for="box">{{ checked }}</label>
+
+    <br>
+    <p>多个复选框</p>
+    <input type="checkbox" id="baidu" value="baidu" v-model="checkeds"><label for="baidu">百度</label>
+    <input type="checkbox" id="google" value="google" v-model="checkeds"><label for="google">谷歌</label>
+    <input type="checkbox" id="taobao" value="taobao" v-model="checkeds"><label for="taobao">淘宝</label>
+    <p>你选择的是：{{checkeds}}</p>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el:'#div2',
+        data:{
+            checked:false,
+            checkeds:[]
+        }
+    });
+</script>
+
+<!--select 列表-->
+
+<div id="div3">
+    <select v-model="selected">
+        <option value="">选择一个网站</option>
+        <option value="baidu">百度</option>
+        <option value="google">谷歌</option>
+    </select>
+    <p>你选择的是{{ selected }}</p>
+</div>
+<script>
+    new Vue({
+        el:'#div3',
+        data:{
+            selected:''
+        }
+    });
+</script>
+</body>
+</html>
