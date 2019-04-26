@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue 监听</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+<div id="div1">
+    <p style="font-size: 25px">计数器{{counter}}</p>
+    <button @click="counter++" style="font-size: 25px">点我呀</button>
+</div>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:'#div1',
+        data:{
+            counter:0
+        }
+    });
+    vm.$watch('counter',function (nval, oval) {
+        alert(oval+' 变为 '+nval);
+    });
+</script>
+
+<br><br>
+<div id="div2">
+    千米：<input type="text" v-model="km">
+    米：<input type="text" v-model="m">
+</div>
+<p id="content"></p>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:"#div2",
+        data:{
+            km:0,
+            m:0
+        },
+        watch:{
+            km:function (val) {
+                this.km = val;
+                this.m = this.km * 1000;
+            },
+            m:function (val) {
+                this.km = val/1000;
+                this.m = val;
+            }
+        }
+    });
+    vm.$watch('km',function (newValue, oldValue) {
+        document.getElementById("content").innerHTML = "修改前值为: " + oldValue + "，修改后值为: " + newValue;
+    })
+
+</script>
+</body>
+</html>
