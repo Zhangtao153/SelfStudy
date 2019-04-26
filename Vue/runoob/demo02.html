@@ -44,6 +44,7 @@
 
 <!--HTML 属性中的值应使用 v-bind 指令-->
 <!--for 属性规定 label 绑定到哪个表单元素。-->
+<!--在 input 输入框中我们可以使用 v-model 指令来实现双向数据绑定-->
 <div id="myDiv2">
     <label for="input1">改变颜色</label><input type="checkbox" v-model="use" id="input1"><br><br>
     <div :class="{'class1':use}">
@@ -81,7 +82,7 @@
 指令用于在表达式的值改变时，将某些行为应用到 DOM 上-->
 
 <div id="myDiv4">
-    选我啊：<input type="checkbox" v-modal="show">
+    选我啊：<input type="checkbox" v-model="show">
     <div v-if="show">
         <h2>纵有红颜</h2>
         <h2>百生千劫</h2>
@@ -92,6 +93,41 @@
         el:"#myDiv4",
         data:{
             show:false
+        }
+    });
+</script>
+
+<!--参数
+参数在指令后以冒号指明-->
+<div id="myDiv5">
+    <pre><a :href="url1">传送门</a></pre>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el:"#myDiv5",
+        data:{
+            url1:'http://www.baidu.com'
+        }
+    });
+</script>
+
+<!--过滤器-->
+<br><br>
+<div id="myDiv6">
+    {{message | myFilter}}
+</div>
+<script type="text/javascript">
+    new Vue({
+        el:'#myDiv6',
+        data:{
+            message:'hello'
+        },
+        filters:{
+            myFilter:function (value) {
+                if (!value) return'';
+                value = value.toString();
+                return value.charAt(0).toUpperCase()+value.slice(1);
+            }
         }
     });
 </script>
