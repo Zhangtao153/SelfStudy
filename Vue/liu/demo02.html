@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app" style="width: 600px;height: 400px ;margin: 0 auto">
+    <table class="table table-hover table-striped">
+        <tr><th>ID</th><th>Name</th><th>Sex</th></tr>
+        <tr v-for="p in persons"><td>{{p.id}}</td><td>{{p.name}}</td><td>{{p.Sex}}</td></tr>
+    </table>
+    <button @click="addPerson">ADD</button>
+</div>
+
+<script>
+    var app = new Vue({
+        el:'#app',
+        data:{
+            persons:[
+                {id:'01',name:'Lisi',Sex:'F'},
+                {id:'02',name:'Lisi',Sex:'M'},
+                {id:'03',name:'Lisi',Sex:'F'}
+            ]
+        },
+        methods:{
+            addPerson:function () {
+                this.persons.push({id:'04',name:'xiaoming',Sex:'F'});
+            }
+        }
+    });
+</script>
+</body>
+</html>
