@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue 组件</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+
+<!--全局组件-->
+<div id="app1">
+    <zth></zth>
+</div>
+<script type="text/javascript">
+    // 注册
+    Vue.component('zth',{
+        template:'<h2>自定义组件</h2>'
+    });
+    new Vue({
+        el:"#app1"
+
+    });
+</script>
+
+<!--局部组件-->
+<div id="app2">
+    <zt></zt>
+</div>
+<script type="text/javascript">
+    var Child = {
+        template:"<h2>自定义组件2</h2>"
+    };
+    new Vue({
+        el:"#app2",
+        components:{
+            'zt':Child
+        }
+    });
+</script>
+
+<!--pop-->
+<div id="app3">
+    <child message="Hello!"></child>
+</div>
+<script type="text/javascript">
+    Vue.component('child',{
+        props:['message'],
+        template:'<h2>{{message}}</h2>'
+    });
+    new Vue({
+        el:'#app3'
+    });
+</script>
+</body>
+</html>
