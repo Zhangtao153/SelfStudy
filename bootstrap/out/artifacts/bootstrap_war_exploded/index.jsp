@@ -12,6 +12,7 @@
       <h3><a href="pages/demo01.jsp">demo01</a></h3>
       <h3><a href="pages/grid.jsp">栅格系统</a></h3>
       <h3><a href="pages/typesetting.jsp">排版</a></h3>
+      <h3><a href="pages/table.jsp">表格</a></h3>
   </center>
   </body>
 </html>
