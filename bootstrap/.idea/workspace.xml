@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7876244-e6d2-4f33-9abc-a797bdee6c14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/pages/img.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/res/mao.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bootstrap_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bootstrap_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="f7876244-e6d2-4f33-9abc-a797bdee6c14" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="11" column="94" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
+            <state relative-caret-position="275">
+              <caret line="11" column="94" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -35,10 +29,7 @@
         <entry file="file://$PROJECT_DIR$/web/pages/button.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="94" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="11" column="94" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -46,14 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/pages/img.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="260">
               <caret line="20" column="98" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="98" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="500">
               <caret line="20" column="2" selection-start-line="9" selection-start-column="8" selection-end-line="20" selection-end-column="2" />
             </state>
           </provider>
@@ -269,17 +254,18 @@
       <workItem from="1556519742862" duration="4593000" />
       <workItem from="1556534146054" duration="6767000" />
       <workItem from="1556549004967" duration="2157000" />
+      <workItem from="1556584119869" duration="453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19608000" />
+    <option name="totallyTimeSpent" value="20061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31316188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,38 +381,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="11" column="94" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
+        <state relative-caret-position="275">
+          <caret line="11" column="94" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/button.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="94" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="11" column="94" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="500">
           <caret line="20" column="2" selection-start-line="9" selection-start-column="8" selection-end-line="20" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/img.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="260">
           <caret line="20" column="98" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="98" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
