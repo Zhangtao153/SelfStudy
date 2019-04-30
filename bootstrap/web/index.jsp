@@ -16,6 +16,7 @@
       <h3><a href="pages/form.jsp">表单</a></h3>
       <h3><a href="pages/button.jsp">按钮</a></h3>
       <h3><a href="pages/img.jsp">图片</a></h3>
+      <h3><a href="pages/AuxiliaryClass.jsp">辅助类</a></h3>
 
   </center>
   </body>
