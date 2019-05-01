@@ -19,7 +19,8 @@
       <h3><a href="pages/AuxiliaryClass.jsp">辅助类</a></h3>
       <br><br>
       <hr class="bg-danger">
-      <h3><a href="Component/Glyphicons.jsp">辅助类</a></h3>
+      <h3><a href="Component/Glyphicons.jsp">图标</a></h3>
+      <h3><a href="Component/dropdown.jsp">下拉菜单</a></h3>
 
   </center>
   </body>
