@@ -17,6 +17,9 @@
       <h3><a href="pages/button.jsp">按钮</a></h3>
       <h3><a href="pages/img.jsp">图片</a></h3>
       <h3><a href="pages/AuxiliaryClass.jsp">辅助类</a></h3>
+      <br><br>
+      <hr class="bg-danger">
+      <h3><a href="Component/Glyphicons.jsp">辅助类</a></h3>
 
   </center>
   </body>
