@@ -23,7 +23,8 @@
       <h3><a href="Component/dropdown.jsp">下拉菜单</a></h3>
       <h3><a href="Component/navigation.jsp">导航</a></h3>
       <h3><a href="Component/navbar.jsp">导航条</a></h3>
-      <h3><a href="Component/breadcrumb.jsp">导航条</a></h3>
+      <h3><a href="Component/breadcrumb.jsp">路径导航</a></h3>
+      <h3><a href="Component/pagination.jsp">分页</a></h3>
   </center>
   </body>
 </html>
