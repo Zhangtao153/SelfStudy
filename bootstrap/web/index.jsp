@@ -28,6 +28,7 @@
       <h3><a href="Component/label.jsp">标签</a></h3>
       <h3><a href="Component/badge.jsp">徽章</a></h3>
       <h3><a href="Component/alert.jsp">警告框</a></h3>
+      <h3><a href="Component/panel.jsp">面板</a></h3>
   </center>
   </body>
 </html>
