@@ -10,11 +10,10 @@
   <body>
   <center>
       <a href="barChart01.jsp"><h3>柱状图01</h3></a>
-          <%
-              String fileName= BarChart01.getBarChart(session);
-              System.out.println(fileName);
-          %>
-          <img src="DisplayChart?filename=<%=fileName %>"  border="0"/>
+      <a href="barChart02.jsp"><h3>柱状图02</h3></a>
+      <a href="barChart03.jsp"><h3>柱状图03</h3></a>
+      <a href="barChart04.jsp"><h3>柱状图04</h3></a>
+
   </center>
   </body>
 </html>

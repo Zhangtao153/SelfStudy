@@ -5,9 +5,7 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.servlet.ServletUtilities;
 import org.jfree.data.category.DefaultCategoryDataset;
-
 import javax.servlet.http.HttpSession;
-
 
 public class BarChart01 {
     public static String getBarChart(HttpSession session) throws Exception{
