@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24208f7d-946f-4cbf-b1ff-79a5ca737661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zth/LineChart01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lineChart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/zth/PieChart01.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/zth/PieChart01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/zth/PieChart02.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/zth/PieChart02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="24208f7d-946f-4cbf-b1ff-79a5ca737661" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/lineChart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="125">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -330,12 +323,12 @@
       <workItem from="1558696699329" duration="7898000" />
       <workItem from="1558710549214" duration="2887000" />
       <workItem from="1558743839814" duration="2000000" />
-      <workItem from="1558749157650" duration="2125000" />
+      <workItem from="1558749157650" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18751000" />
+    <option name="totallyTimeSpent" value="18969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -509,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/lineChart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="125">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
