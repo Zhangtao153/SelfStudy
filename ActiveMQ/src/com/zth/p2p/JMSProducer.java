@@ -55,12 +55,12 @@ public class JMSProducer {
             // 创建消息生产者
             messageProducer = session.createProducer(destination);
             // 发送消息
-          /*  sendMessage(session,messageProducer);
+            sendMessage(session,messageProducer);
             session.commit();
 
             // 关闭资源
             messageProducer.close();
-            session.close();*/
+            session.close();
 
 
         } catch (JMSException e) {
@@ -82,7 +82,7 @@ public class JMSProducer {
     private static void sendMessage(Session session,MessageProducer messageProducer) throws JMSException {
         for (int i = 0; i <10; i++) {
             TextMessage message = session.createTextMessage("ActiveMQ 发的第 "+i+"条消息");
-            System.out.println("发送消息："+message.toString());
+            System.out.println("发送消息："+message.getText());
             messageProducer.send(message);
         }
     }
