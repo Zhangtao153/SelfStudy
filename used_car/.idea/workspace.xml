@@ -7,24 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2c1dc7-39d9-46cc-a7b5-b33bdfb8766e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/car/bean/Used_car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/car/servlet/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/car/servlet/Ruku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/car/servlet/Used_car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/admin/priceQushi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/客户咨询分布.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/客户家庭情况.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/客户年龄分布.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/客户收入分布.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/库存位图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/库存费用图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/新车价格趋势图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/破损分布图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/维修费用图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/车厂分布图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/车辆地区图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tu/车辆时间分布图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/admin/booter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/admin/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/admin/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/booter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/booter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/car/servlet/Ruku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/car/servlet/Ruku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/car/servlet/Ruku.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/car/servlet/Ruku.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,124 +36,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/priceQushi.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/car/bean/Used_car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-              <folding>
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1586#1587#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/car/servlet/core/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Ruku.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Index.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="45" column="62" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="62" />
+            <state relative-caret-position="144">
+              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -163,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -186,10 +81,13 @@
         <option value="$PROJECT_DIR$/src/com/car/servlet/Index.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp" />
         <option value="$PROJECT_DIR$/src/com/car/bean/Used_car.java" />
-        <option value="$PROJECT_DIR$/src/com/car/servlet/Ruku.java" />
         <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/admin/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/com/car/servlet/Ruku.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/admin/priceQushi.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/admin/index.jsp" />
       </list>
     </option>
   </component>
@@ -234,35 +132,6 @@
             <path>
               <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
               <item name="used_car" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="used_car" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="used_car" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="used_car" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="used_car" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,6 +139,12 @@
               <item name="used_car" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="kindeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="used_car" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="tu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="used_car" type="b2602c69:ProjectViewProjectNode" />
@@ -304,13 +179,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SelfStudy\used_car\web" />
+      <recent name="G:\SelfStudy\used_car\web\WEB-INF\admin" />
       <recent name="G:\SelfStudy\used_car\src\com\car\servlet" />
       <recent name="G:\SelfStudy\used_car\src\com\db" />
       <recent name="G:\SelfStudy\used_car\web\WEB-INF\lib" />
-      <recent name="G:\SelfStudy\used_car\src" />
-      <recent name="G:\SelfStudy\used_car\web\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\SelfStudy\used_car\web\tu" />
       <recent name="G:\SelfStudy\used_car\web\WEB-INF" />
       <recent name="G:\SelfStudy\used_car\web\kindeditor" />
       <recent name="G:\SelfStudy\used_car\web" />
@@ -480,18 +356,26 @@
       <workItem from="1559032189982" duration="29000" />
       <workItem from="1559032497957" duration="12000" />
       <workItem from="1559629241276" duration="1952000" />
-      <workItem from="1559631344039" duration="3672000" />
+      <workItem from="1559631344039" duration="5891000" />
     </task>
+    <task id="LOCAL-00001" summary="2019年6月4日15:59:08">
+      <created>1559635181413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559635181414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13156000" />
+    <option name="totallyTimeSpent" value="15375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -500,7 +384,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26450512" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2542662" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33959043" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -554,6 +438,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019年6月4日15:59:08" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年6月4日15:59:08" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/kindeditor/asp/demo.asp">
@@ -609,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Used_car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -636,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" column="62" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Index.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -653,19 +524,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2275">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/car/bean/Used_car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-116">
           <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding>
             <element signature="e#404#405#0" expanded="true" />
@@ -719,20 +594,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Ruku.java">
+    <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Used_car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="155">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/add_usedcar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        <state relative-caret-position="175">
+          <caret line="76" column="57" lean-forward="true" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/car/servlet/Ruku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tu/客户年龄分布.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/priceQushi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
         </state>
       </provider>
     </entry>

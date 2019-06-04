@@ -21,10 +21,11 @@ public class Ruku extends Action {
     }
 
     public void saveadd(Mapping mapping) throws ServletException, IOException{
-        Used_car car =new Used_car();
+        com.car.bean.Used_car car =new com.car.bean.Used_car();
         mapping.getBean(car);
 
         System.out.println(car.toString());
+
         try {
             DB.add(car);
             mapping.setAttr("msg","添加成功");
@@ -32,6 +33,6 @@ public class Ruku extends Action {
             mapping.setAttr("err","添加失败");
             e.printStackTrace();
         }
-        mapping.forward("admin/index.jsp");
+        mapping.forward("admin/welcome.jsp");
     }
 }
