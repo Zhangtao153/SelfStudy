@@ -43,7 +43,7 @@
                    </a>
                </li>
                 <li>
-                    <a class="J_menuItem top_menu " href="admin/forward?page=admin/welcome.jsp">
+                    <a class="J_menuItem top_menu " href="ruku">
                         <i class="fa fa-th-list"></i>
                         <span class="nav-label">二手车录入</span>
                     </a>
