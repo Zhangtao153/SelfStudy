@@ -17,8 +17,8 @@
                 <div class="ibox-title">
                     <h5>价格趋势</h5>
                 </div>
-                <div class="ibox-content">
-                    <img src="tu/新车价格趋势图.png">
+                <div class="ibox-content text-center">
+                    <img src="tu/新车价格趋势图.png" style="height: 400px">
                 </div>
             </div>
         </div>

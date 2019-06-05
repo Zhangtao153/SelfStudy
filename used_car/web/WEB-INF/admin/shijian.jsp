@@ -15,10 +15,10 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>价格趋势</h5>
+                    <h5>时间分布</h5>
                 </div>
                 <div class="ibox-content text-center">
-                    <img src="tu/新车价格趋势图.png" style="height: 400px">
+                    <img src="tu/车辆时间分布图.png" style="height: 400px">
                 </div>
             </div>
         </div>

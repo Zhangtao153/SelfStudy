@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
 
-    <title>环球优路</title>
+    <title>逍客二手车</title>
     <base href="<%=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath()+"/"%>"/>
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -57,19 +57,19 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="WEB-INF/admin/priceQushi.jsp">价格趋势</a>
+                            <a class="J_menuItem" href="pic?action=jiageqiushi">价格趋势</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/focuspic">厂商分布</a>
+                            <a class="J_menuItem" href="pic?action=changshangfenbu">厂商分布</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/artchannel">地区分布</a>
+                            <a class="J_menuItem" href="pic?action=diqufenbu">地区分布</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/attach">破损评估</a>
+                            <a class="J_menuItem" href="pic?action=posun">破损评估</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/admin">时间分布</a>
+                            <a class="J_menuItem" href="pic?action=shijian">时间分布</a>
                         </li>
                     </ul>
                 </li>
@@ -83,16 +83,16 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="druid">车辆信息</a>
+                            <a class="J_menuItem" href="pic?action=">车辆信息</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/city">库存区域</a>
+                            <a class="J_menuItem" href="pic?action=kucunquyu">库存区域</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/focuspic">库存成本</a>
+                            <a class="J_menuItem" href="pic?action=kucunchengben">库存成本</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/artchannel">维修费用</a>
+                            <a class="J_menuItem" href="pic?action=weixiu">维修费用</a>
                         </li>
                     </ul>
                 </li>
@@ -107,16 +107,16 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="druid">出库信息</a>
+                            <a class="J_menuItem" href="pic?action=">出库信息</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/city">销量分析</a>
+                            <a class="J_menuItem" href="pic?action=">销量分析</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/focuspic">利润分析</a>
+                            <a class="J_menuItem" href="pic?action=">利润分析</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/artchannel">期望值分析</a>
+                            <a class="J_menuItem" href="pic?action=">期望值分析</a>
                         </li>
                     </ul>
                 </li>
@@ -130,19 +130,19 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="druid">信息列表</a>
+                            <a class="J_menuItem" href="pic?action=">信息列表</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/city">区域分布</a>
+                            <a class="J_menuItem" href="pic?action=kehufenbu">区域分布</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/focuspic">年龄分布</a>
+                            <a class="J_menuItem" href="pic?action=agefenbu">年龄分布</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/artchannel">收入分析</a>
+                            <a class="J_menuItem" href="pic?action=shourufenbu">收入分析</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="admin/artchannel">家庭情况</a>
+                            <a class="J_menuItem" href="pic?action=jiating">家庭情况</a>
                         </li>
                     </ul>
                 </li>
@@ -161,10 +161,7 @@
                     <span id="one_show"></span>
                     <span id="jm_show"></span>
                 </div>
-                <div class="pull-right " style="margin-right: 20px;"  >
-                    Welcome,${loged.email}! <a href="admin/login?action=logout">退出</a>
 
-                </div>
             </div>
         </div>
         <div style="clear: both;"></div>
