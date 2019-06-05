@@ -83,7 +83,7 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="pic?action=">车辆信息</a>
+                            <a class="J_menuItem" href="car_list">车辆信息</a>
                         </li>
                         <li>
                             <a class="J_menuItem" href="pic?action=kucunquyu">库存区域</a>
@@ -130,7 +130,7 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="pic?action=">信息列表</a>
+                            <a class="J_menuItem" href="kuhu_list">客户列表</a>
                         </li>
                         <li>
                             <a class="J_menuItem" href="pic?action=kehufenbu">区域分布</a>
