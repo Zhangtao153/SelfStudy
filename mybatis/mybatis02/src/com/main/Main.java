@@ -1,17 +1,17 @@
 package com.main;
 
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Date;
-import java.util.List;
-
 import com.mapper.StudentMapper;
 import com.pojo.Student;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Date;
+import java.util.List;
 
 /**
  * @author zth
@@ -26,9 +26,9 @@ public class Main {
 
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
 
-        Student student = new Student("zth","zth@qq.com",new Date());
+       /* Student student = new Student("zth","zth@qq.com",new Date());
         studentMapper.addStudent(student);
-
+*/
 
 
         List<Student> students = studentMapper.getAllStudents();
@@ -36,8 +36,6 @@ public class Main {
         for (Student student1:students) {
             System.out.println(student1);
         }
-
-
 
 
 
