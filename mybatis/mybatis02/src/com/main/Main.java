@@ -11,7 +11,9 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author zth
@@ -31,11 +33,18 @@ public class Main {
 */
 
 
-        List<Student> students = studentMapper.getAllStudents();
+       /* List<Student> students = studentMapper.getAllStudents();
 
         for (Student student1:students) {
             System.out.println(student1);
-        }
+        }*/
+
+        Map<String,Object> map = new HashMap<>();
+        map.put("id",2);
+        map.put("name","%stu%");
+
+        Student student = studentMapper.getStudent(map);
+        System.out.println(student);
 
 
 
