@@ -6,6 +6,8 @@ import com.util.SqlSessionFactoryUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
 
+import java.util.List;
+
 /**
  * @author zth
  * @Date 2019-06-09 21:13
@@ -19,7 +21,9 @@ public class Student01 {
 
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
 
-        Student student = studentMapper.getStudent(2);
-        System.out.println(student);
+        /*Student student = studentMapper.getStudent(2);
+        System.out.println(student);*/
+        List<Student> students = studentMapper.getAllStudents();
+        System.out.println(students);
     }
 }
