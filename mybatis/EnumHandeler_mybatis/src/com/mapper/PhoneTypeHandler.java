@@ -22,6 +22,7 @@ public class PhoneTypeHandler extends BaseTypeHandler<PhoneNumber>
     {
         ps.setString(i, parameter.getAsString());
     }
+
     @Override
     public PhoneNumber getNullableResult(ResultSet rs, String
             columnName)
@@ -29,6 +30,7 @@ public class PhoneTypeHandler extends BaseTypeHandler<PhoneNumber>
     {
         return new PhoneNumber(rs.getString(columnName));
     }
+
     @Override
     public PhoneNumber getNullableResult(ResultSet rs, int
             columnIndex)
@@ -36,6 +38,7 @@ public class PhoneTypeHandler extends BaseTypeHandler<PhoneNumber>
     {
         return new PhoneNumber(rs.getString(columnIndex));
     }
+
     @Override
     public PhoneNumber getNullableResult(CallableStatement cs, int
             columnIndex)
