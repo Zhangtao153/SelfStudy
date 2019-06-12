@@ -16,7 +16,9 @@
     </environment> 
     
   </environments> 
-  
+  <typeHandlers>
+      <typeHandler handler="com.mapper.PhoneTypeHandler"/>
+  </typeHandlers>
    
   <mappers>
     <mapper resource="com/mapper/StudentsMapper.xml"/>

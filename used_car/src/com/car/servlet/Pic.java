@@ -66,4 +66,14 @@ public class Pic extends Action {
     public void jiating(Mapping mapping) throws ServletException, IOException {
         mapping.forward("admin/jiating.jsp");
     }
+
+
+    public void chushouprice(Mapping mapping) throws ServletException, IOException {
+        mapping.forward("admin/chushouprice.jsp");
+    }
+
+
+    public void chukufenxi(Mapping mapping) throws ServletException, IOException {
+        mapping.forward("admin/chukufenxi.jsp");
+    }
 }

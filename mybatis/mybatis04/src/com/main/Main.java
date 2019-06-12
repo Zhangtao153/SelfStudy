@@ -19,9 +19,10 @@ import java.util.List;
 public class Main {
     Logger logger = Logger.getLogger(Main.class);
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
+
         String res = "mybatis-config.xml";
-        InputStream inputStream = Resources.getResourceAsStream(res);
+        InputStream inputStream = Main.class.getResourceAsStream(res);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
         SqlSession sqlSession = sqlSessionFactory.openSession();

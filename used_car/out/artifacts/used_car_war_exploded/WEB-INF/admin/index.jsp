@@ -107,10 +107,10 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="pic?action=">出库信息</a>
+                            <a class="J_menuItem" href="pic?action=chukufenxi">出库信息</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="pic?action=">销量分析</a>
+                            <a class="J_menuItem" href="pic?action=chushouprice">售价分布</a>
                         </li>
                         <li>
                             <a class="J_menuItem" href="pic?action=">利润分析</a>

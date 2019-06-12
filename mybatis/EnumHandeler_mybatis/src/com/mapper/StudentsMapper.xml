@@ -13,8 +13,12 @@
 </resultMap>
 
 
-  <insert id="addStudents" parameterType="com.pojo.Students">
+  <!--<insert id="addStudents" parameterType="com.pojo.Students">
     insert into students(name,email,dob,sex)values(#{name},#{email},#{dob},#{sex,typeHandler=org.apache.ibatis.type.EnumOrdinaTypeHandler}))
+  </insert>-->
+
+  <insert id="addStudents" parameterType="Student">
+    insert into students(name,phone)values(#{name},#{phone})
   </insert>
   
 </mapper>
