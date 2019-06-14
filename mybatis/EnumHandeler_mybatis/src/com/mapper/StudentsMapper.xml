@@ -18,7 +18,7 @@
   </insert>-->
 
   <insert id="addStudents" parameterType="Student">
-    insert into students(name,phone)values(#{name},#{phone})
+    insert into students(name,email,phone)values(#{name},#{email},#{phone})
   </insert>
   
 </mapper>

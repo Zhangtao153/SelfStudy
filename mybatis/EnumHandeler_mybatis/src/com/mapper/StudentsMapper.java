@@ -6,7 +6,7 @@ import com.pojo.Students;
 
 public interface StudentsMapper {
 	
-	//查询所有学生信息
+	//添加一个学生
    public void addStudents(Students s);
    
    public Students getStudentById(int stu_id);

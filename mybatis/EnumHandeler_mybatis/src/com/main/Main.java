@@ -2,8 +2,6 @@ package com.main;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
-import java.util.List;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -13,7 +11,6 @@ import org.apache.log4j.Logger;
 
 import com.mapper.StudentsMapper;
 import com.pojo.PhoneNumber;
-import com.pojo.SexEnum;
 import com.pojo.Students;
 /**
  * 测试代码
@@ -31,15 +28,15 @@ public class Main {
 		
 		//step2:得到SqlSession    相当于connection
 		SqlSession sqlSession=sqlSessionFactory.openSession();
-		StudentsMapper sm=sqlSession.getMapper(StudentsMapper.class);
-		
-		//step3:查询信息
-		Students s=new Students("王五2","66666@qq.com",new Date(),SexEnum.MALE);
-        sm.addStudents(s);
-		
-		/*Students stu=sm.getStudentById(9);
-		System.out.println(stu);*/
-		logger.info("查寻一个学生");
+
+		StudentsMapper studentMapper = sqlSession.getMapper(StudentsMapper.class);
+
+		Students student = new Students();
+		student.setName("zth");
+		student.setEmail("zth@qq.com");
+		PhoneNumber phoneNumber = new PhoneNumber("123","456","789");
+
+		studentMapper.addStudents(student);
 		sqlSession.commit();
 		System.out.println("ok");
 	}
