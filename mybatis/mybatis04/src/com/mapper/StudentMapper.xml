@@ -3,12 +3,18 @@
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mapper.StudentMapper">
+    <resultMap id="stu" type="com.pojo.Student">
+        <id property="id" column="stud_id"/>
+        <result property="name" column="name"/>
+        <result property="email" column="email"/>
+        <result property="dob" column="dob"/>
+    </resultMap>
 
     <select id="findAllStudents" resultType="com.pojo.Student">
         select * from students;
     </select>
 
-    <select id="findStudentById" resultType="com.pojo.Student" parameterType="int">
+    <select id="findStudentById" resultMap="stu" parameterType="int">
         select * from students where stud_id = #{id}
     </select>
 
@@ -26,6 +32,14 @@
 
     <select id="findById2" parameterType="int" resultType="map">
         select * from students where stud_id > #{id}
+    </select>
+
+    <select id="find001" parameterType="map" resultType="com.pojo.Student">
+        select * from students where stud_id > #{id} and name like concat('%',#{name},'%');
+    </select>
+
+    <select id="countFirstName" parameterType="String" resultType="int">
+        select count(*) as total from students where name like concat('%',#{name},'%');
     </select>
 
 

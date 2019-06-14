@@ -10,10 +10,7 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author zth
@@ -62,7 +59,7 @@ public class Main {
         System.out.println(stu);*/
 
        //findById2
-        List<Map<String,Object>> stus = studentMapper.findById2(1);
+        /*List<Map<String,Object>> stus = studentMapper.findById2(1);
 
         for (Map<String,Object> map:stus){
             Iterator<Map.Entry<String,Object>> iterator = map.entrySet().iterator();
@@ -71,8 +68,27 @@ public class Main {
                 Map.Entry<String,Object> entry = iterator.next();
                 System.out.println(entry.getKey()+"---->"+entry.getValue());
             }
-        }
+        }*/
 
+        // find001
+        /*Map<String,Object> para = new HashMap<>();
+        para.put("id",0);
+        para.put("name","stu");
+
+        // 没有定义接口
+        List<Student> students1 = sqlSession.selectList("com.mapper.StudentMapper.find001",para);
+
+        for (Student student:students1) {
+            System.out.println(student);
+        }*/
+
+        // 用annotation 配置
+        Student student = studentMapper.getStuByID(9);
+        System.out.println(student);
+
+        /*int total = studentMapper.countFirstName("stu");
+
+        System.out.println(total);*/
         sqlSession.close();
 
 

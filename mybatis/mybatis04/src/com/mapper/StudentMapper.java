@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Map;
 
 import com.pojo.Student;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 
 public interface StudentMapper {
@@ -21,4 +23,11 @@ public interface StudentMapper {
 	public Map<String,Object> findById(int id);
 
 	public List<Map<String,Object>> findById2(int id);
+
+
+	@Select("select * from students where stud_id = #{id}")
+	public Student getStuByID(@Param("id") int id);
+
+    public int countFirstName(String name);
+
 }
