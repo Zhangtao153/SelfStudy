@@ -25,7 +25,7 @@ public class Test01 {
 
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
 
-        List<Stu> stus = studentMapper.getAllStus03();
+        List<Stu> stus = studentMapper.getAllStus04();
         System.out.println(stus);
     }
 }

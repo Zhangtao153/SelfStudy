@@ -2,36 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1dfca40-6b34-4781-bcf5-bfc3593d778a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars__7_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars__8_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/jars/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/jars/mybatis-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/jars/mysql-connector-java-5.1.42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/jars/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/jars/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/mybatis07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/com/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/com/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/com/pojo/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/com/pojo/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/com/test/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/jars/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/jars/mybatis-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/jars/mysql-connector-java-5.1.42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/jars/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/jars/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/mybatis08.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/com/pojo/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/com/pojo/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/com/test/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars__10_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars__9_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/jars/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/jars/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/jars/mysql-connector-java-5.1.42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/jars/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/jars/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/mybatis09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/com/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/com/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/com/pojo/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/com/pojo/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/com/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis09/src/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08/src/com/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08/src/com/test/Test01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,56 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis08/src/com/test/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis08/src/com/pojo/Score.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis08/src/com/pojo/Stu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,12 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis01/src/com/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis01/src/com/mapper/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/mybatis01/src/com/pojo/Student.java" />
-        <option value="$PROJECT_DIR$/mybatis01/src/com/main/Main.java" />
-        <option value="$PROJECT_DIR$/mybatis02/src/com/pojo/com/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis02/src/jdbc.properties" />
         <option value="$PROJECT_DIR$/mybatis02/src/com/mapper/StudentMapper.java" />
         <option value="$PROJECT_DIR$/mybatis02/src/com/main/Main.java" />
         <option value="$PROJECT_DIR$/mybatis02/src/mybatis-config.xml" />
@@ -163,9 +98,15 @@
         <option value="$PROJECT_DIR$/mybatis07/src/com/test/Test01.java" />
         <option value="$PROJECT_DIR$/mybatis07/src/com/mapper/StudentMapper.java" />
         <option value="$PROJECT_DIR$/mybatis07/src/com/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis09/src/src/com/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis09/src/src/com/test/Test01.java" />
+        <option value="$PROJECT_DIR$/mybatis09/src/src/com/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.java" />
         <option value="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis08/src/com/test/Test01.java" />
-        <option value="$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis09/src/com/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis09/src/com/test/Test01.java" />
+        <option value="$PROJECT_DIR$/mybatis09/src/com/mapper/StudentMapper.xml" />
       </list>
     </option>
   </component>
@@ -176,10 +117,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
-    <option name="y" value="10" />
+    <option name="x" value="11" />
+    <option name="y" value="7" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,20 +147,25 @@
             <path>
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis08" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis08" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis08" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
@@ -227,7 +173,7 @@
             <path>
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis08" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -250,10 +196,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\SelfStudy\mybatis\mybatis04\src" />
-      <recent name="G:\SelfStudy\mybatis\mybatis02\src\com\mapper" />
-      <recent name="G:\SelfStudy\mybatis\mybatis01\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SelfStudy\mybatis\mybatis09" />
+      <recent name="G:\SelfStudy\mybatis\mybatis08\src" />
+      <recent name="G:\SelfStudy\mybatis\mybatis09\src" />
+      <recent name="G:\SelfStudy\mybatis\mybatis08" />
+      <recent name="G:\SelfStudy\mybatis\mybatis07" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pojo" />
@@ -261,12 +209,10 @@
       <recent name="com.main" />
       <recent name="com.pojo.com.mapper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\SelfStudy\mybatis\mybatis08" />
-      <recent name="G:\SelfStudy\mybatis\mybatis07" />
-      <recent name="G:\SelfStudy\mybatis" />
-      <recent name="G:\SelfStudy\mybatis\mybatis06" />
-      <recent name="G:\SelfStudy\mybatis\mybatis06\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\SelfStudy\mybatis\mybatis04\src" />
+      <recent name="G:\SelfStudy\mybatis\mybatis02\src\com\mapper" />
+      <recent name="G:\SelfStudy\mybatis\mybatis01\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,20 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test01 (2)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.Main" />
-      <module name="mybatis04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test01 (3)">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.Main" />
       <module name="mybatis05" />
@@ -334,6 +267,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Test01" />
+      <module name="mybatis09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.Test01" />
       <module name="mybatis06" />
@@ -348,19 +294,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Test01" />
       <item itemvalue="Application.Test01 (1)" />
       <item itemvalue="Application.Test01 (2)" />
+      <item itemvalue="Application.Test01 (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01 (3)" />
         <item itemvalue="Application.Test01 (2)" />
         <item itemvalue="Application.Test01 (1)" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +335,8 @@
       <workItem from="1560521071424" duration="6167000" />
       <workItem from="1560582631315" duration="2885000" />
       <workItem from="1560586428097" duration="1568000" />
-      <workItem from="1560596280670" duration="7101000" />
+      <workItem from="1560596280670" duration="8137000" />
+      <workItem from="1560612362387" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="2019年6月8日17:08:47">
       <created>1559984952777</created>
@@ -475,17 +422,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560602262018</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mybatis">
+      <created>1560604427666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560604427666</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69440000" />
+    <option name="totallyTimeSpent" value="71236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -493,7 +446,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31569967" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23549488" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -519,7 +472,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.19283277" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.31569967" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -551,44 +504,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis03/src/com/util/SqlSessionFactoryUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis02/src/com/mapper/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis02/src/com/mapper/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis03/src/com/mapper/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis03/src/com/test/Student01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis03/src/com/mapper/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -670,10 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="47" column="13" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="47" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1560586646463" expanded="true" signature="2230:2282" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="18" column="47" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,24 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="22" column="80" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,32 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,28 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,17 +710,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis08/src/com/pojo/Stu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis08/src/com/pojo/Score.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis09/src/src/com/test/Test01.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis09/src/src/com/mapper/StudentMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis09/src/src/com/mapper/StudentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis08/src/com/pojo/Stu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -898,20 +734,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis08/src/com/test/Test01.java">
+    <entry file="file://$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis08/src/com/mapper/StudentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis08/src/com/test/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="81">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis09/src/com/test/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis09/src/com/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis09/src/com/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -967,7 +821,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mybatis</last-edited>
+          <last-edited>mybatis09</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

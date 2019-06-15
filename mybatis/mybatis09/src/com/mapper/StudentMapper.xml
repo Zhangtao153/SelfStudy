@@ -10,18 +10,19 @@
         <result property="name" column="name"/>
         <result property="sex" column="sex"/>
         <result property="age" column="age"/>
-
-        <association property="score" column="stu_id" javaType="Score">
-            <id property="id" column="id"/>
-            <result property="math" column="math"/>
-            <result property="english" column="english"/>
-            <result property="pe" column="pe"/>
-        </association>
+        <association property="score" resultMap="score"/>
     </resultMap>
 
-    <select id="getAllStus03" resultMap="stus">
-  select s.id,s.clazz_id,s.name,s.sex,s.age,c.math,c.english,c.pe from stu s,score c where c.stu_id=s.id
-</select>
+    <resultMap id="score" type="Score">
+        <id property="id" column="id"/>
+        <result property="math" column="math"/>
+        <result property="english" column="english"/>
+        <result property="pe" column="pe"/>
+    </resultMap>
+
+    <select id="getAllStus04" resultMap="stus">
+      select s.id,s.clazz_id,s.name,s.sex,s.age,c.math,c.english,c.pe from stu s,score c where c.stu_id=s.id
+    </select>
 
 
 </mapper>
