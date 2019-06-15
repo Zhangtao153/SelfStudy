@@ -30,4 +30,8 @@ public interface StudentMapper {
 
     public int countFirstName(String name);
 
+	//public Student findByMap(Map<String ,Object> map);
+
+    public List<Student> findByMap(Map<String ,Object> map);
+
 }

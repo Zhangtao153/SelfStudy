@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1dfca40-6b34-4781-bcf5-bfc3593d778a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis04/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jars__5_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/jars/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/jars/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/src/com/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/src/com/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis05/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/PhoneTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/PhoneTypeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/PhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/SexEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EnumHandeler_mybatis/src/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/EnumHandeler_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05/mybatis05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/jars/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05/jars/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/jars/mybatis-3.4.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05/jars/mybatis-3.4.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/jars/mysql-connector-java-5.1.46.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05/jars/mysql-connector-java-5.1.42.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/mybatis_error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/PhoneTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/PhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumHandeler_mybatis/src/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05/src/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis04/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04/src/com/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04/src/com/pojo/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,19 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="-48">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,30 +56,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="239">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis05/src/com/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis04/src/com/main/Main.java">
+        <entry file="file://$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+            <state relative-caret-position="325">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1560511684562" expanded="true" signature="1638:1690" ph="{...}" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis04/src/mybatis-config.xml">
+        <entry file="file://$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="250">
+              <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -88,6 +126,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findMap</find>
+      <find>find001</find>
+      <find>findById2</find>
+      <find>findAllStudents</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -127,10 +173,15 @@
         <option value="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/PhoneTypeHandler.java" />
         <option value="$PROJECT_DIR$/EnumHandeler_mybatis/src/com/main/Main.java" />
         <option value="$PROJECT_DIR$/mybatis04/src/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java" />
-        <option value="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis04/src/com/main/Main.java" />
         <option value="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis05/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis05/src/com/test/Test.java" />
+        <option value="$PROJECT_DIR$/mybatis04/src/com/main/Main.java" />
+        <option value="$PROJECT_DIR$/mybatis05/src/com/main/Main.java" />
       </list>
     </option>
   </component>
@@ -140,8 +191,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="21" />
+    <option name="y" value="15" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -154,7 +206,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,12 +237,38 @@
               <item name="mybatis04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis04" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis05" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
@@ -200,37 +277,38 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis01/jars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SelfStudy\mybatis\mybatis05" />
+      <recent name="G:\SelfStudy\mybatis\mybatis05\src" />
+      <recent name="G:\SelfStudy\mybatis\mybatis04\src\com\pojo" />
+      <recent name="G:\SelfStudy\mybatis\mybatis04\src" />
+      <recent name="G:\SelfStudy\mybatis\mybatis04\src\com\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pojo" />
+      <recent name="com.mapper" />
+      <recent name="com.main" />
+      <recent name="com.pojo.com.mapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\SelfStudy\mybatis\mybatis04\src" />
       <recent name="G:\SelfStudy\mybatis\mybatis02\src\com\mapper" />
       <recent name="G:\SelfStudy\mybatis\mybatis01\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mapper" />
-      <recent name="com.pojo" />
-      <recent name="com.main" />
-      <recent name="com.pojo.com.mapper" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\SelfStudy\mybatis\mybatis04\src" />
-      <recent name="G:\SelfStudy\mybatis\mybatis04\src\com\mapper" />
-      <recent name="G:\SelfStudy\mybatis\mybatis04\src\com\pojo" />
-      <recent name="G:\SelfStudy\mybatis\EnumHandeler_mybatis" />
-      <recent name="G:\SelfStudy\mybatis\mybatis04\src\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.Main" />
       <module name="mybatis02" />
@@ -274,7 +352,7 @@
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.Main" />
-      <module name="EnumHandeler_mybatis" />
+      <module name="mybatis05" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.main.*" />
@@ -320,8 +398,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Student01" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -349,7 +427,10 @@
       <workItem from="1560223845076" duration="27000" />
       <workItem from="1560343461015" duration="4515000" />
       <workItem from="1560385368996" duration="1914000" />
-      <workItem from="1560495253170" duration="11016000" />
+      <workItem from="1560495253170" duration="15288000" />
+      <workItem from="1560521071424" duration="6167000" />
+      <workItem from="1560582631315" duration="2885000" />
+      <workItem from="1560586428097" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary="2019年6月8日17:08:47">
       <created>1559984952777</created>
@@ -407,17 +488,31 @@
       <option name="project" value="LOCAL" />
       <updated>1560349300289</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mybatis">
+      <created>1560511830312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560511830312</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mybatis">
+      <created>1560517332955</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560517332955</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47447000" />
+    <option name="totallyTimeSpent" value="62339000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23071104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -425,7 +520,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.5392491" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3566553" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -443,7 +538,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23071104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -451,7 +546,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4215017" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3566553" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -477,13 +572,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019年6月8日17:08:47" />
-    <MESSAGE value="mybatis" />
     <MESSAGE value="2019年6月12日21:56:59" />
     <MESSAGE value="2019年6月12日22:21:32" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年6月12日22:21:32" />
+    <MESSAGE value="mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis01/mybatis-config.xml.tld" />
     <entry file="file://$PROJECT_DIR$/mybatis01/src/com/mapper/StudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -632,23 +726,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/pojo/Students.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/mybatis_error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/pojo/Students.java" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/mybatis_error.log" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.java" />
     <entry file="file://$PROJECT_DIR$/mybatis04/src/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -656,80 +736,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/PhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="method#toString#0;class#PhoneNumber#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/PhoneTypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/Students.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/SexEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/StudentsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/PhoneNumber.java" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/mapper/PhoneTypeHandler.java" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/Students.java" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/pojo/SexEnum.java" />
+    <entry file="file://$PROJECT_DIR$/EnumHandeler_mybatis/src/com/main/Main.java" />
     <entry file="jar://$PROJECT_DIR$/mybatis04/jars/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -740,44 +753,101 @@
     <entry file="file://$PROJECT_DIR$/mybatis04/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java">
+    <entry file="jar://$PROJECT_DIR$/mybatis04/jars/mybatis-3.4.6.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="91">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis04/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis05/src/com/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis05/src/com/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis05/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1560586646463" expanded="true" signature="2230:2282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis05/src/com/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis05/src/com/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="-48">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis04/src/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/pojo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/mapper/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis04/src/com/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+        <state relative-caret-position="325">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1560511684562" expanded="true" signature="1638:1690" ph="{...}" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -860,6 +930,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>mybatis-3.4.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

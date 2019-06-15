@@ -1,16 +1,19 @@
 package com.main;
 
 import com.mapper.StudentMapper;
+
 import com.pojo.Student;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author zth
@@ -29,18 +32,33 @@ public class Main {
 
         StudentMapper studentMapper = sqlSession.getMapper(com.mapper.StudentMapper.class);
 
+       /* Map<String ,Object> map = new HashMap<>();
+        map.put("di",0);
+        map.put("name","stu");
+
+        List<Student> stus = studentMapper.findByMap(map);
+        System.out.println(stus);*/
+
+       /* List<Map<String,Object>> stus = studentMapper.findByMap(map);
+        for (Map<String,Object> map1:stus) {
+            Iterator<Map.Entry<String,Object>> iterator = map1.entrySet().iterator();
+            while (iterator.hasNext()){
+                Map.Entry<String,Object> entry = iterator.next();
+                System.out.println(entry.getKey()+"---->"+entry.getValue());
+            }
+        }*/
 
 
         // findAllStudents
-        /*studentMapper.findAllStudents();
-        List<Student> students = studentMapper.findAllStudents();
+        //studentMapper.findAllStudents();
+       /* List<Student> students = studentMapper.findAllStudents();
 
         for (Student student: students) {
             System.out.println(student);
         }*/
 
        // findStudentById
-      /* Student student = studentMapper.findStudentById(1);
+      /* Student student = studentMapper.findStudentById(2);
        System.out.println(student);*/
 
       // insertStudent
@@ -83,8 +101,8 @@ public class Main {
         }*/
 
         // 用annotation 配置
-        Student student = studentMapper.getStuByID(9);
-        System.out.println(student);
+       /* Student student = studentMapper.getStuByID(9);
+        System.out.println(student);*/
 
         /*int total = studentMapper.countFirstName("stu");
 
