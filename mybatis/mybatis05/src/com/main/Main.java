@@ -1,15 +1,13 @@
 package com.main;
 
 import com.mapper.StudentMapper;
+import com.pojo.Student;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author zth
@@ -24,7 +22,7 @@ public class Main {
 
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
 
-        Map<String ,Object> map = new HashMap<>();
+        /*Map<String ,Object> map = new HashMap<>();
         map.put("id",0);
         map.put("name","stu");
         List<Map<String, Object>> stus = studentMapper.getStuByName(map);
@@ -36,8 +34,14 @@ public class Main {
                 Map.Entry<String,Object> entry = iterator.next();
                 System.out.println(entry.getKey()+"---->"+entry.getValue());
             }
-        }
+        }*/
 
-        System.out.println(stus);
+        Student student = new Student("haha","haha@qq.com",new Date());
+        studentMapper.addStudent(student);
+
+        sqlSession.commit();
+
+        System.out.println(student);
+
     }
 }

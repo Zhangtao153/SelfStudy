@@ -7,4 +7,8 @@
     <select id="getStuByName" resultType="map" parameterType="map">
         select * from students where stud_id > #{id} and name like concat('%',#{name},'%');
     </select>
+
+    <insert id="addStudent" parameterType="com.pojo.Student" useGeneratedKeys="true" keyProperty="stud_id">
+        insert into students (name,email,dob) values (#{name},#{email},#{dob})
+    </insert>
 </mapper>
