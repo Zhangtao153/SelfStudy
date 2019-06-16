@@ -17,8 +17,8 @@ public class Test01 {
 
 
 
-    public static void main(String[] args){
-        InputStream inputStream = Test01.class.getResourceAsStream("/mybatis-config.xml");
+    public static void main(String[] args) {
+        /*InputStream inputStream = Test01.class.getResourceAsStream("/mybatis-config.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -26,6 +26,20 @@ public class Test01 {
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
 
         List<Stu> stus = studentMapper.getAllStus05();
+
+
         System.out.println(stus);
+
+        sqlSession.close();
+
+        SqlSession sqlSession1 = sqlSessionFactory.openSession();
+
+        StudentMapper studentMapper1 = sqlSession1.getMapper(StudentMapper.class);
+
+        List<Stu> stus1 = studentMapper.getAllStus05();
+
+
+        System.out.println(stus1);
+    }*/
     }
 }
