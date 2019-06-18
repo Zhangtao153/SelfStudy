@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2c1dc7-39d9-46cc-a7b5-b33bdfb8766e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/car/servlet/core/Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/agefenbu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/agefenbu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/chukufenxi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/chukufenxi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/chushouprice.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/chushouprice.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/jiating.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/jiating.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/kehufenbu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/kehufenbu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/kucunchengben.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/kucunchengben.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/kucunquyu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/kucunquyu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/shijian.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/shijian.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/shourufenbu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/shourufenbu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/weixiu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/admin/weixiu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/classes/com/car/servlet/Pic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/used_car_war_exploded/WEB-INF/classes/com/car/servlet/Pic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/car/servlet/core/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="136" column="2" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="2" />
+            <state relative-caret-position="200">
+              <caret line="113" column="28" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-745">
-              <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            <state relative-caret-position="3025">
+              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -161,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +212,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +416,8 @@
       <workItem from="1560343433098" duration="20000" />
       <workItem from="1560760703961" duration="5619000" />
       <workItem from="1560784731989" duration="601000" />
-      <workItem from="1560832250985" duration="4024000" />
+      <workItem from="1560832250985" duration="4117000" />
+      <workItem from="1560844467031" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="2019年6月4日15:59:08">
       <created>1559635181413</created>
@@ -467,17 +454,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560766306147</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="over">
+      <created>1560840084044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560840084044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38464000" />
+    <option name="totallyTimeSpent" value="38707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -486,7 +480,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25085324" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.11945392" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11945392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -544,7 +538,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019年6月4日15:59:08" />
     <MESSAGE value="used_car" />
-    <option name="LAST_COMMIT_MESSAGE" value="used_car" />
+    <MESSAGE value="over" />
+    <option name="LAST_COMMIT_MESSAGE" value="over" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/kindeditor/asp/demo.asp">
@@ -854,8 +849,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/tu/库存费用图.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/com/car/servlet/core/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="113" column="28" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -866,20 +868,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-745">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="3025">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/car/servlet/core/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="136" column="2" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/tu/库存费用图.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
