@@ -112,12 +112,12 @@
                         <li>
                             <a class="J_menuItem" href="pic?action=chushouprice">售价分布</a>
                         </li>
-                        <li>
+                       <%-- <li>
                             <a class="J_menuItem" href="pic?action=">利润分析</a>
                         </li>
                         <li>
                             <a class="J_menuItem" href="pic?action=">期望值分析</a>
-                        </li>
+                        </li>--%>
                     </ul>
                 </li>
 
