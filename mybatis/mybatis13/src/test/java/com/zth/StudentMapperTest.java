@@ -23,11 +23,14 @@ public class StudentMapperTest {
         InputStream inputStream = StudentMapperTest.class.getResourceAsStream("/mybatis-config.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
-
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
 
         List<Clazz> clazzes = studentMapper.getAllClazz();
+        System.out.println(clazzes);
 
+        System.out.println("@@@@@@@@@@@@@@@@@@@@");
+        List<Clazz> clazzes2 = studentMapper.getAllClazz();
+        System.out.println(clazzes2);
         sqlSession.close();
     }
 }
