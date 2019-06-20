@@ -3,13 +3,18 @@ package com.zth.jopo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Clazz {
-  private int	 id;
-  private String name;
-  
-  List<Stu> stus = new ArrayList<Stu>();
+/**
+ * @author zth
+ * @Date 2019-06-18 17:37
+ */
+public class Teacher {
+    private int id;
+    private String name;
+    private int age;
+    private String sex;
 
-  /*getter setter toString*/
+    List<Stu> stus=new ArrayList<Stu>();
+
     public int getId() {
         return id;
     }
@@ -26,6 +31,22 @@ public class Clazz {
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     public List<Stu> getStus() {
         return stus;
     }
@@ -36,9 +57,11 @@ public class Clazz {
 
     @Override
     public String toString() {
-        return "Clazz{" +
+        return "Teacher{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", age=" + age +
+                ", sex='" + sex + '\'' +
                 ", stus=" + stus +
                 '}';
     }
