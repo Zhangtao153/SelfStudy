@@ -12,10 +12,10 @@ import java.util.List;
  */
 public interface StudentMapper {
 
-    public List<Stu> getAllStu();
+/*    public List<Stu> getAllStu();
 
-    public List<Clazz> getAllClazz();
+    public List<Clazz> getAllClazz();*/
 
-    public List<Teacher> getAllTeacher();
+    public List<Teacher> getAllStu();
 
 }

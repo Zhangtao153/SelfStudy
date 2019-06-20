@@ -25,7 +25,7 @@ public class Main {
 
         StudentMapper studentMapper  = sqlSession.getMapper(StudentMapper.class);
 
-        List<Teacher> teachers = studentMapper.getAllTeacher();
+        List<Teacher> teachers = studentMapper.getAllStu();
 
         System.out.println(teachers);
     }
