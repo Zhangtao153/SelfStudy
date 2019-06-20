@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="teacher" class="com.pojo.Teacher">
+        <property name="name" value="haha"/>
+        <property name="age" value="29"/>
+    </bean>
+
+    <bean id="student" class="com.pojo.Student">
+        <property name="name" value="zth"/>
+        <property name="age" value="18"/>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+
+
+</beans>
