@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.StudentMapper">
+
+    <resultMap id="teachMap" type="Teacher">
+        <id column="id" property="id"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <result property="name" column="name"/>
+
+        <collection property="stus" select="findStuByTeacherId" column="id" fetchType="lazy"/>
+    </resultMap>
+
+    <resultMap id="stusMap" type="stu">
+        <id property="id" column="id"/>
+        <result property="clazzId" column="clazz_id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <collection property="teas" select="findTeachByStuId" column="id" fetchType="lazy"/>
+    </resultMap>
+
+    <resultMap id="studentMap" type="stu">
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+    </resultMap>
+
+    <select id="findTeachByStuId" parameterType="int" resultMap="teachMap" >
+        select teacher.* from teacher,stu_tea  where stu_tea.stu_id = #{id} and stu_tea.tea_id = teacher.id
+    </select>
+
+    <select id="findStuByTeacherId" parameterType="int" resultMap="studentMap">
+        select stu.* from stu,stu_tea  where stu_tea.tea_id = #{id} and stu_tea.stu_id = stu.id;
+    </select>
+
+    <select id="getAllStu" resultMap="stusMap" >
+         select * from stu
+    </select>
+
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.mapper.StudentMapper">
+
+    <resultMap type="stu" id="stus">
+        <id property="id" column="id"/>
+        <result property="clazzId" column="clazz_id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <association property="score" select="com.mapper.mapper.StudentMapper.findScoreById" column="id" />
+    </resultMap>
+
+    <select id="getAllStus05" resultMap="stus">
+      select * from stu
+    </select>
+
+    <select id="findScoreById" resultType="score" parameterType="int">
+        select * from score where stu_id=#{id}
+    </select>
+
+</mapper>
