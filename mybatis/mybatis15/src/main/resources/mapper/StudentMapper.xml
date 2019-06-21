@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zth.mapper.StudentMapper">
+    <select id="getAllStudents"  resultType="com.zth.jopo.Stu" parameterType="com.zth.jopo.Stu">
+        select * from stu where 1=1
+        <if test="null != sex">
+            and sex = #{sex}
+        </if>
+        <if test="null != age">
+            and age = #{age}
+        </if>
+    </select>
+
+    <select id="getAllStudents1"  resultType="com.zth.jopo.Stu" parameterType="com.zth.jopo.Stu">
+        select * from stu where 1=1
+        <choose>
+            <when test="null != sex">
+                and sex = #{sex}
+            </when>
+            <when test="null != age">
+                and age = #{age}
+            </when>
+            <otherwise>
+                and  clazz_id = 2
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="getAllStudents2"  resultType="com.zth.jopo.Stu" parameterType="com.zth.jopo.Stu">
+        select * from stu
+        <where>
+            <if test="null != sex">
+                sex = #{sex}
+            </if>
+            <if test="null != age">
+                and age = #{age}
+            </if>
+        </where>
+
+    </select>
+
+    <update id="updateStu" parameterType="com.zth.jopo.Stu">
+        update stu
+        <set>
+            <if test="clazzId != null">clazz_id = #{clazzId},</if>
+            <if test="name != null">name = #{name},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="age != null">age = #{age}</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="getStudentsIn"  resultType="com.zth.jopo.Stu">
+        select * from stu where id in
+        <foreach item="item" index="index" collection="list"
+           open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>
