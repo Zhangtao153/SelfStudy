@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+   <!-- <context:annotation-config/>
+    <context:component-scan base-package="com.bean"/>-->
+
+
+    <bean id="teacher" class="com.bean.Teacher">
+        <property name="name" value="老刘"/>
+        <property name="age" value="35"/>
+        <property name="info" value="">
+
+        </property>
+        <property name="hobby">
+            <set>
+                <value>抽烟</value>
+                <value>喝酒</value>
+                <value>烫头</value>
+            </set>
+        </property>
+        <property name="stus">
+            <list>
+                <ref bean="stu"></ref>
+                <ref bean="stu2"/>
+            </list>
+        </property>
+
+        <property name="clazz">
+            <map>
+                <entry key="01" value="自动化"/>
+                <entry key="02" value="计算机"/>
+            </map>
+        </property>
+    </bean>
+
+
+
+    <bean id="stu" class="com.bean.Student">
+        <property name="name" value="小张"/>
+        <property name="age" value="35"/>
+    </bean>
+    <bean id="stu2" class="com.bean.Student" autowire=""/>
+
+</beans>
