@@ -45,6 +45,6 @@
         <property name="name" value="小张"/>
         <property name="age" value="35"/>
     </bean>
-    <bean id="stu2" class="com.bean.Student" autowire=""/>
+    <bean id="stu2" class="com.bean.Student"/>
 
 </beans>
