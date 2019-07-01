@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+   <!-- <context:annotation-config/>
+    <context:component-scan base-package="com.bean"/>-->
+
+    <!--<bean id="teacher" class="com.bean.Teacher"/>
+    <bean id="stu" class="com.bean.Student"/>-->
+
+    <!--<bean id="teaFactory" class="com.factory.TeacherFactory"/>
+    <bean id="teacher2" factory-bean="teaFactory" factory-method="createTeacher2"/>
+    <bean id="stu" class="com.bean.Student"/>-->
+
+   <!-- <bean id="teacher" class="com.bean.Teacher">
+        <constructor-arg name="name" value="老刘"/>
+        <constructor-arg name="age" value="35"/>
+    </bean>-->
+
+    <bean id="teacher" class="com.bean.Teacher">
+        <property name="name" value="老刘"/>
+        <property name="age" value="35"/>
+        <property name="info">
+            <value>
+                email=zzz@qq.com
+                phone=123456
+            </value>
+        </property>
+    </bean>
+
+    <!--<bean id="teacher2" class="com.bean.Teacher">
+        <constructor-arg index="0" value="老刘"/>
+        <constructor-arg index="1" value="36"/>
+    </bean>-->
+
+    <bean id="stu" class="com.bean.Student">
+        <property name="name" value="小张"/>
+        <property name="age" value="35"/>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+
+</beans>
