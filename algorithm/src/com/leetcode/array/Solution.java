@@ -37,10 +37,10 @@ public class Solution {
 
 
     public int[] twoSum(int[] nums, int target) {
-        int[] res = new int[]{1,3};
+        int[] res = new int[2];
         Map<Integer,Integer> map = new HashMap<>();
 
-        for (int i = 0; i < nums.length - 1; i++) {
+        for (int i = 0; i < nums.length ; i++) {
             if (map.containsKey(target- nums[i])){
                 res[0] = map.get(target-nums[i]);
                 res[1] = i;
@@ -53,8 +53,10 @@ public class Solution {
         return res;
     }
 
+
+
     public static void main(String[] args){
         int[] array = new int[]{3,2,4};
-        System.out.println(Arrays.toString(new Solution().twoSum(array,9)));
+        System.out.println(Arrays.toString(new Solution().twoSum(array,6)));
     }
 }
