@@ -1,5 +1,7 @@
 package com.leetcode.array;
 
+import java.util.Arrays;
+
 /**
  * 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
  *
@@ -26,33 +28,42 @@ package com.leetcode.array;
  */
 public class Solution001 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int len = nums1.length+nums2.length;
-
+        int len = nums1.length + nums2.length;
         int[] temp = new int[len];
+        if (nums1.length!=0){
+            for (int i = 0; i < nums1.length; i++) {
+                temp[i]= nums1[i];
+            }
+            int index = nums1.length-1;
 
-        for (int i = 0; i < nums1.length; i++) {
-            temp[i]= nums1[i];
-        }
-        int index = nums1.length-1;
-        for (int i = 0; i < nums2.length; i++) {
-            for (int j =index ; j >0; j--) {
-                if (temp[j] > nums2[i]){
+            for (int i = 0; i < nums2.length; i++) {
+                int j = index;
+                for (j =index ; j >=0 && temp[j] > nums2[i]; j--) {
                     temp[j+1] = temp[j];
                 }
                 temp[j+1] = nums2[i];
+                index ++;
+
             }
-            index++;
+        }else {
+            for (int i = 0; i < nums2.length; i++) {
+                temp[i]= nums2[i];
+            }
         }
 
-        if (len%2==0){
+        System.out.println(Arrays.toString(temp));
+        if (len%2 != 0){
             return temp[len/2];
         }else {
-            return (temp[len/2]+temp[len/2 +1])/2;
+            return (temp[len/2 -1]+temp[len/2 ])/2.0;
         }
+
     }
 
     public static void main(String[] args){
-        int[] nums1 = [1, 2]
-        int []nums2 = [3, 4]
+        int[] nums1 = new int[]{3,4};
+        int []nums2 = new int[]{-2,-1};
+
+        System.out.println(new Solution001().findMedianSortedArrays(nums1,nums2));
     }
 }
