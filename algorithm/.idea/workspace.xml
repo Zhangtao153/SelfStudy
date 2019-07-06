@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/Solution004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/Solution005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/Solution001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Solution005.java">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="267">
+              <caret line="70" column="19" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution003.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution004.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution005.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution001.java" />
       </list>
     </option>
   </component>
@@ -67,8 +67,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="477" />
+    <option name="y" value="33" />
     <option name="width" value="813" />
     <option name="height" value="708" />
   </component>
@@ -97,7 +97,7 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,13 +132,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution005">
-    <configuration name="Solution001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Solution001" />
+  <component name="RunManager" selected="Application.Solution001 (1)">
+    <configuration name="Solution001 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.string.Solution001" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="PATTERN" value="com.leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution001" />
       <item itemvalue="Application.Solution002" />
       <item itemvalue="Application.Solution003" />
       <item itemvalue="Application.Solution004" />
       <item itemvalue="Application.Solution005" />
+      <item itemvalue="Application.Solution001 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution001 (1)" />
         <item itemvalue="Application.Solution005" />
         <item itemvalue="Application.Solution004" />
         <item itemvalue="Application.Solution003" />
         <item itemvalue="Application.Solution002" />
-        <item itemvalue="Application.Solution001" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +232,7 @@
       <workItem from="1561989430493" duration="4501000" />
       <workItem from="1562164782262" duration="7070000" />
       <workItem from="1562319729606" duration="8246000" />
-      <workItem from="1562371333386" duration="12292000" />
+      <workItem from="1562371333386" duration="23418000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -290,25 +290,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562380457080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="leetcode">
+      <created>1562385829924</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562385829924</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36064000" />
+    <option name="totallyTimeSpent" value="47190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.16868381" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.29614875" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.16868381" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35836178" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3088737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24573378" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3447099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,29 +333,30 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.29614875" />
+      <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.16868381" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38363636" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3088737" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32935154" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,8 +484,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Solution005.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="100">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
