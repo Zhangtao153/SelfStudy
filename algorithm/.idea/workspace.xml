@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/Solution001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/recursive/Solution001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,13 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution001.java">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/recursive/Solution001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="70" column="19" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="537">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -57,6 +54,7 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution004.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution005.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution001.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/recursive/Solution001.java" />
       </list>
     </option>
   </component>
@@ -67,8 +65,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="477" />
-    <option name="y" value="33" />
+    <option name="x" value="354" />
+    <option name="y" value="50" />
     <option name="width" value="813" />
     <option name="height" value="708" />
   </component>
@@ -80,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,6 +100,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -232,7 +230,9 @@
       <workItem from="1561989430493" duration="4501000" />
       <workItem from="1562164782262" duration="7070000" />
       <workItem from="1562319729606" duration="8246000" />
-      <workItem from="1562371333386" duration="23418000" />
+      <workItem from="1562371333386" duration="23652000" />
+      <workItem from="1562419178042" duration="3300000" />
+      <workItem from="1562425805498" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -297,24 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1562385829924</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="leetcode">
+      <created>1562405873438</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562405873438</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47190000" />
+    <option name="totallyTimeSpent" value="51076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.29614875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.21331316" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.16868381" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24573378" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24573378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3447099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,15 +340,15 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.29614875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.16868381" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38363636" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3088737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24573378" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3447099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -398,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,10 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="143" column="30" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,10 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="1608" column="19" selection-start-line="1608" selection-start-column="19" selection-end-line="1608" selection-end-column="19" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,10 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="132" column="25" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="25" />
-          <folding>
-            <element signature="e#3740#3741#0" expanded="true" />
-            <element signature="e#3777#3778#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,19 +475,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="70" column="19" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/recursive/Solution001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
         </state>
       </provider>
     </entry>
