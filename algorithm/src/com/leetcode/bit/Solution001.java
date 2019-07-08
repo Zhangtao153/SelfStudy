@@ -47,7 +47,9 @@ public class Solution001 {
     }
 
     public static void main(String[] args){
-        int[] array = new int[]{1,2,3};
-        System.out.println(new Solution001().subsets(array));
+       /* int[] array = new int[]{1,2,3};
+        System.out.println(new Solution001().subsets(array));*/
+
+       System.out.println(2>>1);
     }
 }
