@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
-              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,6 +239,7 @@
       <workItem from="1562484979772" duration="3302000" />
       <workItem from="1562514574246" duration="674000" />
       <workItem from="1562552496686" duration="2416000" />
+      <workItem from="1562984763733" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -329,13 +329,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57511000" />
+    <option name="totallyTimeSpent" value="58702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.19515885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.16868381" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -519,7 +518,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
