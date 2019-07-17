@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/Juzhen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/springMVC_01_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/artifacts/springMVC_01_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/springMVC_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/springMVC_01/springMVC_01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="1050">
               <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Juzhen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution001.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/recursive/Solution001.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/array/Juzhen.java" />
       </list>
     </option>
   </component>
@@ -101,6 +127,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -133,7 +166,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution001">
+  <component name="RunManager" selected="Application.Juzhen">
+    <configuration name="Juzhen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Juzhen" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution001 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.string.Solution001" />
       <module name="algorithm" />
@@ -153,19 +199,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.bit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Solution003" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +233,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution003" />
       <item itemvalue="Application.Solution004" />
       <item itemvalue="Application.Solution005" />
       <item itemvalue="Application.Solution001 (1)" />
       <item itemvalue="Application.Solution001" />
+      <item itemvalue="Application.Juzhen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Juzhen" />
         <item itemvalue="Application.Solution001" />
         <item itemvalue="Application.Solution001 (1)" />
         <item itemvalue="Application.Solution005" />
         <item itemvalue="Application.Solution004" />
-        <item itemvalue="Application.Solution003" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +273,8 @@
       <workItem from="1562514574246" duration="674000" />
       <workItem from="1562552496686" duration="2416000" />
       <workItem from="1562984763733" duration="1191000" />
+      <workItem from="1563371336329" duration="195000" />
+      <workItem from="1563378555991" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -329,19 +364,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58702000" />
+    <option name="totallyTimeSpent" value="60927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.19818456" />
-      <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.16868381" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.204236" />
+      <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.204236" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28327644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3139932" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3447099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,9 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,8 +549,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/bit/Solution001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="1050">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Juzhen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
