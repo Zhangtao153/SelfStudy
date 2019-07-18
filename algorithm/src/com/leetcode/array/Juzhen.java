@@ -1,8 +1,5 @@
 package com.leetcode.array;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 /**
  * @author zth
  * @Date 2019-07-17 21:50
@@ -35,9 +32,12 @@ public class Juzhen {
     }
 
     public static void main(String[] args){
-        int[][] array = fill(4);
+        int[][] array = fill(5);
         for (int i = 0; i < array.length; i++) {
-            System.out.println(Arrays.toString(array[i]));
+            System.out.println();
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j]+"\t");
+            }
         }
 
     }
