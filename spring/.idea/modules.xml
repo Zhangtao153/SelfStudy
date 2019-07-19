@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring06/spring06.iml" filepath="$PROJECT_DIR$/spring06/spring06.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring07/spring07.iml" filepath="$PROJECT_DIR$/spring07/spring07.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring08/spring08.iml" filepath="$PROJECT_DIR$/spring08/spring08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring09/spring09.iml" filepath="$PROJECT_DIR$/spring09/spring09.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC_01/springMVC_01.iml" filepath="$PROJECT_DIR$/springMVC_01/springMVC_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/staticProxy/staticProxy.iml" filepath="$PROJECT_DIR$/staticProxy/staticProxy.iml" />
     </modules>

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Logger {
 
-    @Pointcut("execution(* com.zth.*.*(..))")
+    @Pointcut("execution(* com.zth.service.*.*(..))")
     private void anyPublicOperation() {}
 
     @Before("anyPublicOperation()")
@@ -19,19 +19,17 @@ public class Logger {
     public void after() {
         System.out.println("after....");
     }
-    @AfterThrowing
+    @AfterThrowing("anyPublicOperation()")
     public void exception(){
         System.out.println("出错了。。。");
     }
 
-    @Around("anyPublicOperation()")
+    @Around("anyPublicOperation()" )
     public Object myArround(ProceedingJoinPoint joinPoint) throws Throwable {
         System.out.println("环绕前置。。。");
         Object result = joinPoint.proceed();
         System.out.println("环绕后置。。。");
         return result;
     }
-
-
 
 }

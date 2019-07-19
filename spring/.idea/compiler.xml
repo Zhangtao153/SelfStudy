@@ -13,6 +13,7 @@
         <module name="spring06" />
         <module name="spring07" />
         <module name="spring08" />
+        <module name="spring09" />
         <module name="springMVC_01" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
       <module name="spring06" target="1.8" />
       <module name="spring07" target="1.8" />
       <module name="spring08" target="1.8" />
+      <module name="spring09" target="1.8" />
       <module name="springMVC_01" target="1.7" />
     </bytecodeTargetLevel>
   </component>
