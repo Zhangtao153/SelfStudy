@@ -13,5 +13,4 @@
         <property name="age" value="18"/>
         <property name="teacher" ref="teacher"/>
     </bean>
-
 </beans>

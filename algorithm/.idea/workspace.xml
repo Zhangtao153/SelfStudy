@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="2019年7月18日00:24:34">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/MagicSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/SnakeLikeMat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/Juzhen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/array/Juzhen.java" afterDir="false" />
-    </list>
+    <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/MagicSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="261">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -120,24 +115,6 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +259,7 @@
       <workItem from="1562984763733" duration="1191000" />
       <workItem from="1563371336329" duration="195000" />
       <workItem from="1563378555991" duration="2275000" />
-      <workItem from="1563409982605" duration="10922000" />
+      <workItem from="1563409982605" duration="11847000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -375,24 +352,30 @@
       <option name="project" value="LOCAL" />
       <updated>1563380692345</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2019年7月18日20:11:41">
+      <created>1563451926221</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563451926221</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72094000" />
+    <option name="totallyTimeSpent" value="73019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.20121029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.204236" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22013652" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40443686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3447099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +432,8 @@
     <MESSAGE value="排序" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="2019年7月18日00:24:34" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年7月18日00:24:34" />
+    <MESSAGE value="2019年7月18日20:11:41" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年7月18日20:11:41" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/RadixSort.java">
@@ -590,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/MagicSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="261">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
