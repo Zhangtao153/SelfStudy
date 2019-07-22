@@ -15,7 +15,6 @@
         <module name="spring08" />
         <module name="spring09" />
         <module name="spring_mybatis" />
-        <module name="springMVC_01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
