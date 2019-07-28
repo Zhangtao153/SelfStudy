@@ -1,4 +1,4 @@
-package com.offer.offer02;
+package com.offer.offer03;
 
 public class getDuplicaton_2 {
     public static int getDuplication(int[] array){

@@ -1,4 +1,4 @@
-package com.offer.offer01;
+package com.offer.offer02;
 
 /**
  * @author zth

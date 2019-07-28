@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="2019年7月21日07:25:56">
-      <change afterPath="$PROJECT_DIR$/src/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/TreeSelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpingBoot/src/main/resources/templates/userList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer04/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer05/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer06/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/controller/FileUpload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/resources/static/html/fileUpload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/resources/static/img/aaa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/webapp/img/a8.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/offer/offer01/HugerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer02/HugerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/offer/offer01/Singleton_DoubleChick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer02/Singleton_DoubleChick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/offer/offer01/Singleton_static_innerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer02/Singleton_static_innerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/offer/offer02/getDuplicaton_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer03/getDuplicaton_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +27,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sort/HeapSort.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/offer/offer04/Find.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="-350">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/offer/offer06/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="69" lean-forward="true" selection-end-line="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,6 +64,9 @@
     <findStrings>
       <find>HashMap</find>
     </findStrings>
+    <dirStrings>
+      <dir>G:\SelfStudy\algorithm\src\com\offer\offer01</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -77,6 +105,16 @@
         <option value="$PROJECT_DIR$/src/sort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/sort/TreeSelectSort.java" />
         <option value="$PROJECT_DIR$/src/sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer01/HugerSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer01/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer02.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer02/offer02.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer01/Singleton_static_innerClass.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer01/Singleton_DoubleChick.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer02/getDuplicaton_2.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer04/Find.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer05/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer06/Solution.java" />
       </list>
     </option>
   </component>
@@ -86,10 +124,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="518" />
-    <option name="y" value="44" />
-    <option name="width" value="813" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="190" />
+    <option name="y" value="11" />
+    <option name="width" value="1051" />
     <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -117,7 +155,14 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,13 +197,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer04.Find" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="com.offer.offer04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer06.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="com.offer.offer06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer05.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="com.offer.offer05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SelectionSort" />
+    <configuration name="getDuplicaton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer03.getDuplicaton" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="com.offer.offer03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.TreeSelectSort" />
+    <configuration name="getDuplicaton_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer03.getDuplicaton_2" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="com.offer.offer03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.TreeSelectSort" />
-      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.getDuplicaton" />
+      <item itemvalue="Application.getDuplicaton_2" />
+      <item itemvalue="Application.Find" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.TreeSelectSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Find" />
+        <item itemvalue="Application.getDuplicaton_2" />
+        <item itemvalue="Application.getDuplicaton" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +316,8 @@
       <workItem from="1563704391061" duration="30000" />
       <workItem from="1563712269192" duration="2649000" />
       <workItem from="1563752530077" duration="7740000" />
+      <workItem from="1564212360538" duration="14854000" />
+      <workItem from="1564275977746" duration="11175000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -384,24 +431,31 @@
       <option name="project" value="LOCAL" />
       <updated>1563665169861</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="2019年7月27日21:51:46">
+      <created>1564235518545</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564235518545</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112079000" />
+    <option name="totallyTimeSpent" value="138108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="190" y="11" width="1051" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.18835099" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49530515" weight="0.22300707" />
       <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.204236" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2883959" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29090908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +464,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32909092" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,14 +474,14 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.4183267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.22300707" />
       <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.204236" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30727273" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05090909" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,7 +515,8 @@
     <MESSAGE value="2019年7月18日20:11:41" />
     <MESSAGE value="字符串" />
     <MESSAGE value="2019年7月21日07:25:56" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年7月21日07:25:56" />
+    <MESSAGE value="2019年7月27日21:51:46" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年7月27日21:51:46" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/RadixSort.java">
@@ -643,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#1037#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,8 +738,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="487">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer01/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer01/offer02.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer02/HugerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="3" lean-forward="true" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer02/Singleton_static_innerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="19" lean-forward="true" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer02/Singleton_DoubleChick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer03/getDuplicaton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer03/getDuplicaton_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer04/Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer06/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="69" lean-forward="true" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
