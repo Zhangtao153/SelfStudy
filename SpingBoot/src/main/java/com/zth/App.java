@@ -1,19 +1,17 @@
 package com.zth;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
-
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * @author zth
  * @Date 2019-07-25 10:47
  */
-@EnableAutoConfiguration
-@ComponentScan("com.zth")
+@SpringBootApplication
+@EnableScheduling
 public class App {
     public static void main(String[] args){
-        // 启动 SpirngBoot 项目
         SpringApplication.run(App.class,args);
     }
 }
