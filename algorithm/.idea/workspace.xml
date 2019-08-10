@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a4369a-9f9c-434c-a22e-69976c9104b2" name="Default Changelist" comment="2019年7月21日07:25:56">
-      <change afterPath="$PROJECT_DIR$/../SpingBoot/src/main/resources/templates/userList.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/offer04/Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/offer05/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/offer/offer06/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/controller/FileUpload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpingBoot/src/main/java/com/zth/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/resources/static/html/fileUpload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/resources/static/img/aaa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpingBoot/src/main/webapp/img/a8.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer11/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer12/StringPathInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer13/RobotMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer14/CuttingRope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer15/NumberOf1InBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer16/MyPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer17/Print1ToMaxOfNDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer18/DeleteDuplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/offer/offer18/DeleteNodeInList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/offer01/HugerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer02/HugerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/offer01/Singleton_DoubleChick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer02/Singleton_DoubleChick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/offer01/Singleton_static_innerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer02/Singleton_static_innerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/offer/offer02/getDuplicaton_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/offer/offer03/getDuplicaton_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,25 +22,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/offer/offer04/Find.java">
+        <entry file="file://$PROJECT_DIR$/src/com/offer/offer17/Print1ToMaxOfNDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="-60">
+              <caret line="71" column="32" lean-forward="true" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/offer/offer18/DeleteNodeInList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3425">
+              <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+              <folding>
+                <element signature="e#3155#3156#0" expanded="true" />
+                <element signature="e#3187#3188#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/offer/offer06/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/com/offer/offer18/DeleteDuplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="69" lean-forward="true" selection-end-line="69" />
+            <state relative-caret-position="150">
+              <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +63,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +71,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>HashMap</find>
+      <find>loadclass</find>
     </findStrings>
     <dirStrings>
       <dir>G:\SelfStudy\algorithm\src\com\offer\offer01</dir>
@@ -74,15 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RadixSort.java" />
-        <option value="$PROJECT_DIR$/src/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution001.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution002.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution003.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution004.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/array/Solution005.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution001.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/recursive/Solution001.java" />
@@ -115,6 +115,25 @@
         <option value="$PROJECT_DIR$/src/com/offer/offer04/Find.java" />
         <option value="$PROJECT_DIR$/src/com/offer/offer05/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/offer/offer06/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer07/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer08/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer09/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer10/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer10/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/KMP/ViolentStringMatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/KMP/KMP.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer11/MIn.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer11/Min.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer12/offer12.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer12/HasPath.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer12/StringPathInMatrix.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer13/RobotMove.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer14/CuttingRope.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer15/NumberOf1InBinary.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer16/MyPower.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer17/Print1ToMaxOfNDigits.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer18/DeleteDuplication.java" />
+        <option value="$PROJECT_DIR$/src/com/offer/offer18/DeleteNodeInList.java" />
       </list>
     </option>
   </component>
@@ -124,9 +143,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="190" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1051" />
     <option name="height" value="708" />
   </component>
@@ -135,10 +154,11 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,16 +182,43 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="offer18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -179,10 +226,14 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.leetcode.array" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SelfStudy\algorithm\src\com\offer\offer18" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,13 +248,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
-    <configuration name="Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.offer.offer04.Find" />
+  <component name="RunManager" selected="Application.DeleteDuplication">
+    <configuration name="DeleteDuplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer18.DeleteDuplication" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.offer.offer04.*" />
+          <option name="PATTERN" value="com.offer.offer18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.offer.offer06.Solution" />
+    <configuration name="DeleteNodeInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer18.DeleteNodeInList" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.offer.offer06.*" />
+          <option name="PATTERN" value="com.offer.offer18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.offer.offer05.Solution" />
+    <configuration name="MyPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer16.MyPower" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.offer.offer05.*" />
+          <option name="PATTERN" value="com.offer.offer16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getDuplicaton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.offer.offer03.getDuplicaton" />
+    <configuration name="NumberOf1InBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer15.NumberOf1InBinary" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.offer.offer03.*" />
+          <option name="PATTERN" value="com.offer.offer15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getDuplicaton_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.offer.offer03.getDuplicaton_2" />
+    <configuration name="Print1ToMaxOfNDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offer.offer17.Print1ToMaxOfNDigits" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.offer.offer03.*" />
+          <option name="PATTERN" value="com.offer.offer17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +315,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.getDuplicaton" />
-      <item itemvalue="Application.getDuplicaton_2" />
-      <item itemvalue="Application.Find" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.NumberOf1InBinary" />
+      <item itemvalue="Application.MyPower" />
+      <item itemvalue="Application.Print1ToMaxOfNDigits" />
+      <item itemvalue="Application.DeleteNodeInList" />
+      <item itemvalue="Application.DeleteDuplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Find" />
-        <item itemvalue="Application.getDuplicaton_2" />
-        <item itemvalue="Application.getDuplicaton" />
+        <item itemvalue="Application.DeleteDuplication" />
+        <item itemvalue="Application.DeleteNodeInList" />
+        <item itemvalue="Application.Print1ToMaxOfNDigits" />
+        <item itemvalue="Application.MyPower" />
+        <item itemvalue="Application.NumberOf1InBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +369,17 @@
       <workItem from="1563752530077" duration="7740000" />
       <workItem from="1564212360538" duration="14854000" />
       <workItem from="1564275977746" duration="11175000" />
+      <workItem from="1564328912270" duration="238000" />
+      <workItem from="1564329296740" duration="148000" />
+      <workItem from="1564357868378" duration="13953000" />
+      <workItem from="1564652542178" duration="5380000" />
+      <workItem from="1564670377853" duration="8000" />
+      <workItem from="1565160281561" duration="6518000" />
+      <workItem from="1565193656003" duration="598000" />
+      <workItem from="1565226761895" duration="23069000" />
+      <workItem from="1565310516336" duration="8888000" />
+      <workItem from="1565372333864" duration="303000" />
+      <workItem from="1565396280574" duration="15060000" />
     </task>
     <task id="LOCAL-00001" summary="2019年7月1日22:18:56">
       <created>1561990758854</created>
@@ -438,25 +500,71 @@
       <option name="project" value="LOCAL" />
       <updated>1564235518545</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2019年8月1日20:44:45">
+      <created>1564663500926</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564663500926</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2019年8月8日15:03:31">
+      <created>1565247822135</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565247822135</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Solution_test1 - 2019.07.29 at 09h 41m 04s.xml">
+      <configuration name="Solution.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1 - 2019.07.29 at 09h 41m 49s.xml">
+      <configuration name="Solution.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1 - 2019.07.29 at 09h 42m 53s.xml">
+      <configuration name="Solution.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.07.29 at 10h 27m 53s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.07.29 at 10h 30m 43s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.07.29 at 10h 31m 04s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test - 2019.07.29 at 11h 06m 33s.xml">
+      <configuration name="Solution.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test - 2019.07.29 at 11h 06m 54s.xml">
+      <configuration name="Solution.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test - 2019.07.29 at 11h 07m 04s.xml">
+      <configuration name="Solution.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution - 2019.07.29 at 14h 58m 08s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138108000" />
+    <option name="totallyTimeSpent" value="212271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="11" width="1051" height="708" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49530515" weight="0.22300707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.204236" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29090908" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16894197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24914676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -464,7 +572,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32909092" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.26450512" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,15 +582,15 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.22300707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" sideWeight="0.5058824" side_tool="true" weight="0.204236" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05090909" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.061433446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24914676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,7 +598,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.26450512" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -516,72 +624,11 @@
     <MESSAGE value="字符串" />
     <MESSAGE value="2019年7月21日07:25:56" />
     <MESSAGE value="2019年7月27日21:51:46" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年7月27日21:51:46" />
+    <MESSAGE value="2019年8月1日20:44:45" />
+    <MESSAGE value="2019年8月8日15:03:31" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年8月8日15:03:31" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Solution001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="66" column="82" selection-start-line="63" selection-start-column="7" selection-end-line="66" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/JDK/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1128">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/JDK/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="143" column="30" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Solution003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/array/Solution002.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -789,19 +836,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/offer04/Find.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="50">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/offer/offer06/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="69" lean-forward="true" selection-end-line="69" />
+        <state relative-caret-position="125">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer07/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer08/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer09.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer09/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer10/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer10/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="34" column="5" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/KMP/ViolentStringMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/KMP/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer11/Min.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer12/StringPathInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer13/RobotMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2675">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer14/CuttingRope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="114" column="45" lean-forward="true" selection-start-line="114" selection-start-column="45" selection-end-line="114" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/JDK/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3058">
+          <caret line="400" column="23" selection-start-line="400" selection-start-column="23" selection-end-line="400" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer16/MyPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer15/NumberOf1InBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer17/Print1ToMaxOfNDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="71" column="32" lean-forward="true" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer18/DeleteNodeInList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+          <folding>
+            <element signature="e#3155#3156#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/offer/offer18/DeleteDuplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
