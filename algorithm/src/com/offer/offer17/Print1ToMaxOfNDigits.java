@@ -39,9 +39,9 @@ public class Print1ToMaxOfNDigits {
                 if (i==0){
                     return true;
                 }else {
-                    nSum -= 10;
+                    //nSum -= 10;
                     nTakeOver = 1;
-                    number[i] = (char)('0'+nSum);
+                    number[i] = (char)('0');
                 }
             }else {
                 number[i] = (char)('0'+nSum);
